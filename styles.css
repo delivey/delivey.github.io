@@ -41,6 +41,8 @@ body {
 /************************/
 
 .projects {
-    margin-top: 500px;
     background-color: white;
+    margin: 250px 0 10px 0;
+    padding-bottom: 300px;
+    color: black;
 }
