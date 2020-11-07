@@ -13,7 +13,7 @@ body {
 /***** Top content *****/
  
 .top-content {
-    padding-bottom: 470px;
+    padding-bottom: 520px;
     padding-top: 210px;
     padding-right: 0px;
 }
@@ -45,4 +45,15 @@ body {
     margin: 250px 0 10px 0;
     padding-bottom: 300px;
     color: black;
+}
+
+.project-cards {
+    padding-top: 100px;
+    gap: 70px;
+    display: flex;
+}
+
+.more-projects {
+    padding-top: 100px;
+    padding-left: 500px;
 }
