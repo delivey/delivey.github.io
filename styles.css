@@ -3,7 +3,7 @@ body {
 }
 
 .bg1 {
-    background-color: #30353d;
+    background-color: #2b313b;
 }
 
 .wtext {
@@ -40,10 +40,11 @@ body {
 }
 /************************/
 
+/* Projects */
 .projects {
     background-color: white;
     margin: 250px 0 10px 0;
-    padding-bottom: 300px;
+    padding-bottom: 150px;
     color: black;
 }
 
@@ -57,3 +58,12 @@ body {
     padding-top: 100px;
     padding-left: 500px;
 }
+/**************************/
+
+/* Contact */
+.contact {
+    background-color: #0077b6;
+    padding-top: 300px;
+    padding-bottom: 500px;
+}
+/*********/
