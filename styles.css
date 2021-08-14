@@ -1,13 +1,24 @@
-body {
-    color: white;
+.main { 
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: white
 }
 
-.bg1 {
-    background-color: #2b313b;
+.title {
+    font-size: 60px;
 }
 
-.wtext {
-    color: white;
+p {
+    font-size: 20px;
+}
+
+.t {
+    color: black;
+}
+
+.center {
+    text-align: center;
 }
 
 /***** Top content *****/
@@ -35,35 +46,3 @@ body {
     opacity: 0.8;
 }
  
-.top-content .top-big-link {
-    margin-top: 45px;
-}
-/************************/
-
-/* Projects */
-.projects {
-    background-color: white;
-    margin: 250px 0 10px 0;
-    padding-bottom: 150px;
-    color: black;
-}
-
-.project-cards {
-    padding-top: 100px;
-    gap: 70px;
-    display: flex;
-}
-
-.more-projects {
-    padding-top: 100px;
-    padding-left: 500px;
-}
-/**************************/
-
-/* Contact */
-.contact {
-    background-color: #0077b6;
-    padding-top: 300px;
-    padding-bottom: 500px;
-}
-/*********/
