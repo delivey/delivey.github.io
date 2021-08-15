@@ -1,3 +1,4 @@
+
 .main { 
     margin-top: 150px;
     margin-left: 150px;
@@ -10,15 +11,17 @@
 }
 
 p {
-    font-size: 20px;
-}
-
-.t {
     color: black;
 }
 
 .center {
     text-align: center;
+}
+
+.description {
+    font-size: 24px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
 
 /***** Top content *****/
