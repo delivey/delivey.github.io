@@ -14,19 +14,17 @@ a {
 }
 
 .social {
+    text-decoration:none;
     width: 64px;
     height: 64px;
-}
-
-.text {
-    padding-top: 10px;
-    padding-left: 200px;
 }
 
 .main { 
     margin-top: 10%;
     margin-left: 25%;
     margin-right: 25%;
+    padding-top: 10px;
+    padding-left: 200px;
 }
 
 .title {
@@ -42,10 +40,10 @@ a {
 .navbar {
     margin-top: 100px;
     text-align: center;
+    display: inline-block;
 }
 .navbar ul {
     list-style-type: none;
-    display: inline-block;
     margin: 0;
     padding: 0;
     /* For IE, the outcast */
