@@ -17,6 +17,24 @@ a {
     text-decoration:none;
     width: 64px;
     height: 64px;
+    font-size: 48px;
+}
+
+.project {
+    border: white solid 4px;
+}
+
+.project-title {
+    padding-left: 20px;
+}
+
+.project-github {
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.project-info {
+    display: inline-block;
 }
 
 .main { 
