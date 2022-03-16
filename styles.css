@@ -33,6 +33,11 @@ a {
     margin-left: 50px;
 }
 
+.project-description {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .project-info {
     display: inline-block;
 }
