@@ -20,26 +20,23 @@ a {
     font-size: 48px;
 }
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .project {
     border: white solid 4px;
-}
+    flex-basis: 25%;
 
-.project-title {
-    padding-left: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .project-github {
-    margin-top: 40px;
-    margin-left: 50px;
-}
-
-.project-description {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-.project-info {
-    display: inline-block;
+    margin-top: 50px;
+    margin-right: 20px;
 }
 
 .main { 
