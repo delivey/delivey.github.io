@@ -24,18 +24,32 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 100px 30px;
+
+    padding-right: 200px;
+    padding-left: 200px;
 }
 .project {
     border: white solid 4px;
-    flex-basis: 25%;
+    flex-basis: content;
 
-    margin-bottom: 50px;
+    display: block;
+    height: 100%;
+    max-width: 80%;
+}
+
+.project-info {
     display: flex;
     justify-content: space-between;
 }
 
+.project-image {
+    display: block;
+}
+
+
+
 .project-github {
-    margin-top: 50px;
     margin-right: 20px;
 }
 
