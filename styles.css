@@ -73,6 +73,10 @@ a {
     margin-right: 100px;
 }
 .project {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+
     border: white solid 4px;
     flex-basis: content;
 
@@ -85,25 +89,33 @@ a {
 }
 
 .project-info {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+
     display: flex;
     justify-content: space-between;
+    width: 400px;
 }
 
 .project-title {
-    margin-left: 20px;
+    margin-left: 50px;
     font-weight: bold;
+    height: 60px;
     font-size: 40px;
 }
 
 .project-description {
-    margin-left: 20px;
-    overflow-wrap: break-word;
+    margin-left: -150px;
+    margin-top: 150px;
     font-size: 24px;
-    margin-top: -20px;
+    width: 500px;
 }
 
 .project-github {
-    margin-right: 20px;
+    height: 50px;
+    width: 50px;
+    padding-top: 40px;
 }
 
 .project-image {
