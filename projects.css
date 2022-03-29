@@ -79,7 +79,6 @@
         font-size: 8vw;
         margin-left: 10vw;
         margin-bottom: 10vw;
-        border: solid blue 2px;
         height: 8vh;
         width: 60vw;
     }
@@ -89,7 +88,6 @@
         margin-top: 30vw;
         margin-left: -30vw;
         width: 500px;
-        border: solid red 2px;
     }
     .project-image {
         width: 75vw;
