@@ -2,28 +2,28 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 100px 30px;
+    gap: 3vw 2vw;
 
-    padding-right: 10%;
-    padding-left: 10%;
-    margin-top: 7%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 .project {
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
     box-sizing: border-box; 
 
-    border: white solid 4px;
+    border: white solid 0.2vw;
     flex-basis: content;
 
     display: block;
     height: 100%;
     max-width: 80%;
 
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 1vw;
+    margin-right: 1vw;
 }
 
 .project-info {
@@ -41,13 +41,13 @@
     margin-left: 1vw;
     font-weight: bold;
     height: 2vh;
-    font-size: 40px;
+    font-size: 1.5vw;
 }
 
 .project-description {
     margin-left: -10vw;
     margin-top: 9vh;
-    font-size: 24px;
+    font-size: 0.9vw;
     width: 22vw;
 }
 
@@ -63,4 +63,37 @@
     margin:auto;
     width: 15vw;
     height: 15vw;
+}
+
+@media (pointer:none), (pointer:coarse) {
+    .projects {
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+    }
+    .project {
+        margin-bottom: 10vw;
+    }
+    .project-title {
+        font-size: 10vw;
+        margin-left: 10vw;
+        margin-bottom: 10vw;
+    }
+    .project-description {
+        font-size: 6vw;
+        width: 30vw;
+    }
+    .project-image {
+        width: 75vw;
+        height: 75vw;
+    }
+    .project-github {
+        margin-left: 25vw;
+        height: 12vw;
+        width: 12vw;
+    }
+    .project {
+        max-width: 100%;
+        width: 100%;
+    }
 }
