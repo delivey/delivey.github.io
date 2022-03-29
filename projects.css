@@ -73,22 +73,31 @@
     }
     .project {
         margin-bottom: 10vw;
+        display: inline-block;
     }
     .project-title {
-        font-size: 10vw;
+        font-size: 8vw;
         margin-left: 10vw;
         margin-bottom: 10vw;
+        border: solid blue 2px;
+        height: 8vh;
+        width: 60vw;
     }
     .project-description {
-        font-size: 6vw;
-        width: 30vw;
+        display: inline-block;
+        font-size: 5vw;
+        margin-top: 30vw;
+        margin-left: -30vw;
+        width: 500px;
+        border: solid red 2px;
     }
     .project-image {
         width: 75vw;
         height: 75vw;
     }
     .project-github {
-        margin-left: 25vw;
+        margin-top: 2vh;
+        margin-left: 10vw;
         height: 12vw;
         width: 12vw;
     }
